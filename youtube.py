@@ -7,7 +7,7 @@ print("1.360p")
 print("2.480p")
 print("3.720p")
 print("4.1080p")
-quality = input(":")
+quality = input(": ")
 
 if quality == "1":
     subprocess.run(['youtube-dl', '-f', '134+140', link])
